@@ -2,7 +2,7 @@ use std::time::Instant;
 
 fn main () {
     let start = Instant::now();
-    println!("{}", prime_st(100_001));
+    println!("{}", prime_st(10_001));
     println!("Run time: {:?}", start.elapsed());
 }
 

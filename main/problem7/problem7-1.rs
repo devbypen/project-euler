@@ -2,7 +2,7 @@ use std::time::Instant;
 
 fn main () {
     let start = Instant::now();
-    println!("{}", prime_st(100_001));
+    println!("{}", prime_st(10_001));
     println!("Run time: {:?}", start.elapsed());
 }
 fn is_prime(n: u32) -> bool {
@@ -12,6 +12,10 @@ fn is_prime(n: u32) -> bool {
 
     if n == 2 {
         return true;
+    }
+
+    if n % 2 == 0 {
+        return false;
     }
 
     let mut i = 3;
