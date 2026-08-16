@@ -19,3 +19,10 @@
 // Bạn lại nhân 13 digits từ đầu.
 //
 // Vậy với mỗi vị trí bạn làm khoảng 13 phép nhân.
+//
+//
+//
+
+
+
+
